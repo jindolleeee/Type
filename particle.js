@@ -66,7 +66,7 @@ export class Particle {
         const fontSize = 14;
         const fontName = 'Hind';
         ctx.font = `${fontWidth} ${fontSize}px ${fontName}`;
-        ctx.textBaseline = `middle`;
+        ctx.textBaseline = `center`;
         const textPos = ctx.measureText(str);
         ctx.fillText(
             str,
