@@ -17,13 +17,13 @@ export class Text {
         const myText = str;
         const fontWidth = 500;
         //const fontSize = 600;
-        const fontSize = 700;
+        const fontSize = 600;
         const fontName = 'Hind';
 
         this.ctx.clearRect(0,0,stageWidth, stageHeight);
         this.ctx.font = `${fontWidth} ${fontSize}px ${fontName}`;
         this.ctx.fillStyle = `rgba(0,0,0,0.5)`;
-        this.ctx.textBaseline =`center`;
+        this.ctx.textBaseline =`middle`;
         const fontPos =this.ctx.measureText(myText);
         this.ctx.fillText(
             myText,
