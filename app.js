@@ -13,7 +13,7 @@ class App {
 
         WebFont.load({
             google: {
-              families: ['Hind:600']
+              families: ['Hind:700']
             },
             fontactive:() => {
                 this.visual = new Visual();
